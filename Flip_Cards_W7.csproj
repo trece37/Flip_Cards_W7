@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Resources\app.ico</ApplicationIcon>
+    <AssemblyName>Flip_Cards_W7</AssemblyName>
+    <RootNamespace>Flip_Cards_W7</RootNamespace>
+    <Version>1.0.0</Version>
+    <Company>Trece37 Tech Solutions</Company>
+    <Product>Flip_Cards-W7</Product>
+    <Description>Windows 7 Flip 3D recreation</Description>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <None Include="Resources\**" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Reference Include="System.Drawing" />
+  </ItemGroup>
+</Project>
